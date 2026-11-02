@@ -28,7 +28,7 @@ Use a while loop to increase the count until attendance reaches 75%.
 Display the minimum additional classes required.
 Stop.
 5. Flowchart
-'''mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[/Input total classes and attended classes/]
     B --> C{Are inputs valid?}
@@ -44,7 +44,7 @@ flowchart TD
     J --> I
     I -- Yes --> K[/Display additional classes required/]
     K --> Z
-'''
+```
 6. Pseudocode
 START
 INPUT total_classes
