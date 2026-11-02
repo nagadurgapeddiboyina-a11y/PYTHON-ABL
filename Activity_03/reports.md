@@ -35,6 +35,7 @@ Calculate the overall average across all subjects and examinations.
 Display the overall classification and subjects needing attention.
 Stop.
 5. Flowchart
+```mermaid 
 flowchart TD
     A([Start]) --> B[/Input number of subjects/]
     B --> C{Subject count greater than zero?}
@@ -53,6 +54,7 @@ flowchart TD
     L --> M[Calculate overall average]
     M --> N[/Display report/]
     N --> Z
+```
 6. Pseudocode
 START
 INPUT subject_count
